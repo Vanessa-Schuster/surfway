@@ -7,10 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+code, del, dfn, em, img, ins, kbd, q, s, samp,
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol,  fieldset,
 form, label, legend, table, caption, tbody,
@@ -1790,7 +1790,7 @@ input, select, textarea {
 			}
 
 		header.major p {
-			color: #fff;
+			color: #ffffff;
 			top: 0;
 		}
 
@@ -2669,7 +2669,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-image: url(/surfway/images/);
+			background-color: #2f7fa3;
 			color: #c8ece9;
 		}
 
