@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-escuro: #134762;
+    --amarelo: #fcb83c;
+    --azul-claro: #58b4c6;
+    --laranja: #f49c38;
+    --azul-medio: #2f7fa3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header e Footer */
+#header,
+#footer {
+    background-color: var(--azul-escuro);
+}
+
+#header a,
+#footer a {
+    color: white;
+}
+
+.page-wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Botões */
+.button.primary {
+    background-color: var(--amarelo);
+    color: var(--azul-escuro);
+    border-radius: 12px;
+    padding: 12px 24px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button.primary:hover {
+    background-color: var(--laranja);
+    color: white;
+}
+
+/* Campeonatos */
+.campeonato-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 40px 20px;
+}
+
+.campeonato-card {
+    background-color: #f5f9fc;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.campeonato-card:hover {
+    transform: translateY(-5px);
+}
+
+.campeonato-card h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.campeonato-card p {
+    color: #333;
+    margin-bottom: 15px;
+}
