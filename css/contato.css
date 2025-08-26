@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contatoForm {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contatoForm input,
+#contatoForm textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#contatoForm input:focus,
+#contatoForm textarea:focus {
+    border-color: #fcb83c;
+    outline: none;
+}
+
+#contatoForm button {
+    padding: 14px;
+    background-color: #58b4c6;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contatoForm button:hover {
+    background-color: #f49c38;
+}
