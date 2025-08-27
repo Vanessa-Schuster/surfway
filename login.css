@@ -1,0 +1,72 @@
+
+#banner .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.form-title {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.form-subtitle {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+}
+
+#loginForm input {
+    padding: 12px;
+    border: 1px solid #58b4c6;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+#loginForm input::placeholder {
+    color: #aaa;
+}
+
+#loginForm input:focus {
+    border-color: #58b4c6;
+    outline: none;
+}
+
+#loginForm button {
+    padding: 12px;
+    background-color: #258cba;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#loginForm button:hover {
+    background-color: #1e6f94;
+}

@@ -2294,7 +2294,7 @@ input, select, textarea {
 			background-color: rgba(144, 144, 144, 0.25);
 		}
 
-		input[type="submit"]:Cadastre-se,
+		input[type="submit"]  ,
 		input[type="reset"]:Cadastre-se,
 		input[type="button"]:Cadastre-se,
 		button:Cadastre-se,
