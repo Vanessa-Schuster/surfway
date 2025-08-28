@@ -1,4 +1,4 @@
-
+/* Estrutura central do banner */
 #banner .inner {
     display: flex;
     justify-content: center;
@@ -7,25 +7,27 @@
     padding: 30px;
 }
 
+/* Título do formulário */
 .form-title {
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    color: #fff;
     font-weight: bold;
-    color: white;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
     padding: 10px 0;
     margin-bottom: 10px;
 }
 
+/* Subtítulo do formulário */
 .form-subtitle {
-    margin-top: 10px;
+    color: #fff;
     letter-spacing: 2px;
-    color: white;
     text-align: center;
     margin-bottom: 20px;
 }
 
+/* Estilo do formulário */
 #loginForm {
     display: flex;
     flex-direction: column;
@@ -36,37 +38,44 @@
     width: 100%;
 }
 
+/* Estilo dos campos de entrada */
 #loginForm input {
     padding: 12px;
     border: 1px solid #58b4c6;
     border-radius: 10px;
     font-size: 16px;
-    transition: 0.3s;
     background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+    color: #fff;
+    transition: 0.3s;
 }
 
+/* Placeholder dos inputs */
 #loginForm input::placeholder {
     color: #aaa;
 }
 
+/* Estilo quando o campo está em foco */
 #loginForm input:focus {
     border-color: #58b4c6;
     outline: none;
 }
 
+/* Botão de envio (login) */
 #loginForm button {
     padding: 12px;
-    background-color: #258cba;
-    color: white;
+    background-color: #2f7fa3;
+    color: #ffffff;
     border: none;
     border-radius: 10px;
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition: background-color 0.3s ease;
 }
 
+/* Hover no botão */
 #loginForm button:hover {
-    background-color: #1e6f94;
+    background-color: #58b4c6;
 }
