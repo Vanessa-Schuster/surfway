@@ -1,0 +1,100 @@
+/* Estrutura central do banner */
+#banner .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+/* Título do formulário de cadastro */
+.form-title {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo do formulário de cadastro */
+.form-subtitle {
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário de cadastro */
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Estilo dos campos de entrada */
+#registerForm input {
+    padding: 12px;
+    border: 1px solid #58b4c6;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* Placeholder dos inputs */
+#registerForm input::placeholder {
+    color: #aaa;
+}
+
+/* cor do botao cadastrar*/
+
+form#cadastroForm button {
+   
+    background-color: #2f7fa3;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    form#cadastroForm button:hover {
+    background-color: #58b4c6 ;
+}
+
+form#cadastroForm input:focus {
+    border-color: #2f7fa3;
+    outline: none;
+}
+
+form#cadastroForm input {
+    padding: 12px;
+    border: 2px solid #2f7fa3;
+    font-size: 16px;
+}
+
+/*estilizar o formulário */
+form#cadastroForm {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.wrapper.style3 input[type="submit"]:Cadastre-se,
+				.wrapper.style3 input[type="reset"]:Cadastre-se,
+				.wrapper.style3 input[type="button"]:Cadastre-se,
+				.wrapper.style3 button:Cadastre-se,
+				.wrapper.style3 .button:Cadastre-se {
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+
