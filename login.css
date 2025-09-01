@@ -1,3 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
 /* Fundo escuro e centralização */
 body, html {
     height: 100%;
@@ -75,7 +82,7 @@ body, html {
     font-size: 16px;
     letter-spacing: 3px;
     color: #fff;
-    background-color: #3a9ad9;
+    background-color: #8d3115;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -86,4 +93,107 @@ body, html {
 /* Hover do botão */
 #loginForm button:hover {
     background-color: #5ec1f5;
+}
+
+/* Container principal */
+.wrapper-login {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background-color: #f3f7fc; /* tom claro similar */
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #444;
+  }
+  
+  /* Título da tela */
+  .wrapper-login h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  /* Formulário */
+  .wrapper-login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Inputs */
+  .wrapper-login input[type="text"],
+  .wrapper-login input[type="password"],
+  .wrapper-login input[type="email"] {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .wrapper-login input[type="text"]:focus,
+  .wrapper-login input[type="password"]:focus,
+  .wrapper-login input[type="email"]:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Botão */
+  .wrapper-login button {
+    padding: 14px 0;
+    background-color: #3498db;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wrapper-login button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Link para cadastro */
+  .wrapper-login .link-cadastro {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #3498db;
+  }
+  
+  .wrapper-login .link-cadastro a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .wrapper-login .link-cadastro a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsividade */
+  @media screen and (max-width: 480px) {
+    .wrapper-login {
+      margin: 20px 15px;
+      padding: 25px 20px;
+    }
+  }
+    
+
+
+ /* antigo css*/
+
+ #banner .inner{
+		
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
